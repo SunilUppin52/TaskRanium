@@ -1,0 +1,22 @@
+PODS:
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - Highcharts (10.1.0)
+
+DEPENDENCIES:
+  - Charts
+  - Highcharts (~> 10.1.0)
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - Highcharts
+
+SPEC CHECKSUMS:
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  Highcharts: 72d23362c080584d01773d75ddb8311f007fce59
+
+PODFILE CHECKSUM: 895df0710491c4c79d20b77080a0c82fd768562e
+
+COCOAPODS: 1.11.3

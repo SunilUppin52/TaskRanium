@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-TaskRanium/Pods-TaskRanium-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/Highcharts/Highcharts.framework/Highcharts

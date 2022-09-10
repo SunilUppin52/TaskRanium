@@ -140,7 +140,6 @@ class DisplayChartsVC: UIViewController {
             options.series = [fastestAsteroid, closestAsteroid, averageSize]
             
             chartView.options = options
-            
             self.view.addSubview(chartView)
         }
     }
@@ -158,7 +157,6 @@ extension DisplayChartsVC {
             spinnerView.addSubview(ai)
             onView.addSubview(spinnerView)
         }
-        
         vSpinner = spinnerView
     }
     

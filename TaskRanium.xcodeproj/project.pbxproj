@@ -13,7 +13,6 @@
 		10901F4728CB0A1300F6A7D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10901F4528CB0A1300F6A7D2 /* Main.storyboard */; };
 		10901F4928CB0A1500F6A7D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10901F4828CB0A1500F6A7D2 /* Assets.xcassets */; };
 		10901F4C28CB0A1500F6A7D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10901F4A28CB0A1500F6A7D2 /* LaunchScreen.storyboard */; };
-		10901F5428CB235800F6A7D2 /* DisplayValuesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10901F5328CB235800F6A7D2 /* DisplayValuesVC.swift */; };
 		10901F5628CB238E00F6A7D2 /* AsteriodsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10901F5528CB238E00F6A7D2 /* AsteriodsDataModel.swift */; };
 		10901F5828CB23BC00F6A7D2 /* AsteriodsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10901F5728CB23BC00F6A7D2 /* AsteriodsViewModel.swift */; };
 		10901F7A28CB73C000F6A7D2 /* DisplayChartsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10901F7928CB73C000F6A7D2 /* DisplayChartsVC.swift */; };
@@ -29,7 +28,6 @@
 		10901F4828CB0A1500F6A7D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10901F4B28CB0A1500F6A7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10901F4D28CB0A1500F6A7D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10901F5328CB235800F6A7D2 /* DisplayValuesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayValuesVC.swift; sourceTree = "<group>"; };
 		10901F5528CB238E00F6A7D2 /* AsteriodsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteriodsDataModel.swift; sourceTree = "<group>"; };
 		10901F5728CB23BC00F6A7D2 /* AsteriodsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteriodsViewModel.swift; sourceTree = "<group>"; };
 		10901F7928CB73C000F6A7D2 /* DisplayChartsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayChartsVC.swift; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 				10901F3F28CB0A1300F6A7D2 /* AppDelegate.swift */,
 				10901F4128CB0A1300F6A7D2 /* SceneDelegate.swift */,
 				10901F4328CB0A1300F6A7D2 /* ViewController.swift */,
-				10901F5328CB235800F6A7D2 /* DisplayValuesVC.swift */,
 				10901F5528CB238E00F6A7D2 /* AsteriodsDataModel.swift */,
 				10901F5728CB23BC00F6A7D2 /* AsteriodsViewModel.swift */,
 				10901F4528CB0A1300F6A7D2 /* Main.storyboard */,
@@ -223,7 +220,6 @@
 				10901F4028CB0A1300F6A7D2 /* AppDelegate.swift in Sources */,
 				10901F5828CB23BC00F6A7D2 /* AsteriodsViewModel.swift in Sources */,
 				10901F4228CB0A1300F6A7D2 /* SceneDelegate.swift in Sources */,
-				10901F5428CB235800F6A7D2 /* DisplayValuesVC.swift in Sources */,
 				10901F7A28CB73C000F6A7D2 /* DisplayChartsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

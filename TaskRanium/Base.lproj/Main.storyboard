@@ -89,66 +89,6 @@
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="83.705357142857139"/>
         </scene>
-        <!--Display ValuesVC-->
-        <scene sceneID="a7L-TF-48z">
-            <objects>
-                <viewController storyboardIdentifier="DisplayValuesVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qod-zU-S0G" customClass="DisplayValuesVC" customModule="TaskRanium" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="YpW-wu-cUg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c82-9m-uIa">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xhI-dR-dZu">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gxp-IO-CvP" customClass="BarChartView" customModule="Charts">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="500"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="500" id="Une-CN-AiV"/>
-                                                </constraints>
-                                            </view>
-                                        </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="414" id="9VO-YV-GxQ"/>
-                                            <constraint firstAttribute="bottom" secondItem="Gxp-IO-CvP" secondAttribute="bottom" constant="318" id="EgT-N1-t75"/>
-                                            <constraint firstItem="Gxp-IO-CvP" firstAttribute="top" secondItem="xhI-dR-dZu" secondAttribute="top" id="jSS-Cj-kGi"/>
-                                            <constraint firstAttribute="trailing" secondItem="Gxp-IO-CvP" secondAttribute="trailing" id="ooX-9F-Drd"/>
-                                            <constraint firstItem="Gxp-IO-CvP" firstAttribute="leading" secondItem="xhI-dR-dZu" secondAttribute="leading" id="ryQ-Xr-X1z"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="xhI-dR-dZu" firstAttribute="top" secondItem="c82-9m-uIa" secondAttribute="top" id="AQX-c8-5KQ"/>
-                                    <constraint firstAttribute="trailing" secondItem="xhI-dR-dZu" secondAttribute="trailing" id="ZYF-fE-okS"/>
-                                    <constraint firstItem="xhI-dR-dZu" firstAttribute="leading" secondItem="c82-9m-uIa" secondAttribute="leading" id="tCS-S4-gr5"/>
-                                    <constraint firstAttribute="bottom" secondItem="xhI-dR-dZu" secondAttribute="bottom" id="tfG-JS-dfR"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="s4e-2I-uFt"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="c82-9m-uIa" firstAttribute="trailing" secondItem="s4e-2I-uFt" secondAttribute="trailing" id="QQW-za-lev"/>
-                            <constraint firstItem="c82-9m-uIa" firstAttribute="bottom" secondItem="s4e-2I-uFt" secondAttribute="bottom" id="Wn5-mJ-6Fl"/>
-                            <constraint firstItem="c82-9m-uIa" firstAttribute="top" secondItem="s4e-2I-uFt" secondAttribute="top" id="dex-6S-OaD"/>
-                            <constraint firstItem="c82-9m-uIa" firstAttribute="leading" secondItem="s4e-2I-uFt" secondAttribute="leading" id="lqa-o1-MHF"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="barChartView" destination="Gxp-IO-CvP" id="FWx-T2-FHi"/>
-                        <outlet property="scrollContentView" destination="xhI-dR-dZu" id="vSa-7J-DHb"/>
-                        <outlet property="scrollContentWidth" destination="9VO-YV-GxQ" id="lbP-Sv-TEK"/>
-                        <outlet property="scrollView" destination="c82-9m-uIa" id="Owg-Ei-ifX"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jqy-bc-jFy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1668.1159420289857" y="83.705357142857139"/>
-        </scene>
         <!--Display ChartsVC-->
         <scene sceneID="Cpg-sc-jqs">
             <objects>

@@ -31,9 +31,11 @@ class DisplayChartsVC: UIViewController {
         self.showSpinner(onView: self.view)
         viewModel.getAsteriodDetails(startDate ?? "", endDate ?? "") { e in
             guard e == nil else {
+                self.removeSpinner()
                 return
             }
             self.calulateData()
+            self.removeSpinner()
         }
     }
     
